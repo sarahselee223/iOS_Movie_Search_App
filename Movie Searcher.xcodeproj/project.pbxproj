@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262E003025E348310028A717 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262E002E25E348310028A717 /* MovieTableViewCell.swift */; };
+		262E003125E348310028A717 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262E002F25E348310028A717 /* MovieTableViewCell.xib */; };
 		265D31CC25E3134200784284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D31CB25E3134200784284 /* AppDelegate.swift */; };
 		265D31CE25E3134200784284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D31CD25E3134200784284 /* SceneDelegate.swift */; };
 		265D31D025E3134200784284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D31CF25E3134200784284 /* ViewController.swift */; };
 		265D31D325E3134200784284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265D31D125E3134200784284 /* Main.storyboard */; };
 		265D31D525E3134300784284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265D31D425E3134300784284 /* Assets.xcassets */; };
 		265D31D825E3134300784284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265D31D625E3134300784284 /* LaunchScreen.storyboard */; };
-		265D31E725E326D800784284 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265D31E525E326D800784284 /* MovieTableViewCell.swift */; };
-		265D31E825E326D800784284 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265D31E625E326D800784284 /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262E002E25E348310028A717 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		262E002F25E348310028A717 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		265D31C825E3134200784284 /* Movie Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265D31CB25E3134200784284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265D31CD25E3134200784284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		265D31D425E3134300784284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		265D31D725E3134300784284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		265D31D925E3134300784284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		265D31E525E326D800784284 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
-		265D31E625E326D800784284 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				265D31D425E3134300784284 /* Assets.xcassets */,
 				265D31D625E3134300784284 /* LaunchScreen.storyboard */,
 				265D31D925E3134300784284 /* Info.plist */,
-				265D31E525E326D800784284 /* MovieTableViewCell.swift */,
-				265D31E625E326D800784284 /* MovieTableViewCell.xib */,
+				262E002E25E348310028A717 /* MovieTableViewCell.swift */,
+				262E002F25E348310028A717 /* MovieTableViewCell.xib */,
 			);
 			path = "Movie Searcher";
 			sourceTree = "<group>";
@@ -99,6 +99,7 @@
 		265D31C025E3134200784284 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -132,7 +133,7 @@
 			files = (
 				265D31D825E3134300784284 /* LaunchScreen.storyboard in Resources */,
 				265D31D525E3134300784284 /* Assets.xcassets in Resources */,
-				265D31E825E326D800784284 /* MovieTableViewCell.xib in Resources */,
+				262E003125E348310028A717 /* MovieTableViewCell.xib in Resources */,
 				265D31D325E3134200784284 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +147,7 @@
 			files = (
 				265D31D025E3134200784284 /* ViewController.swift in Sources */,
 				265D31CC25E3134200784284 /* AppDelegate.swift in Sources */,
-				265D31E725E326D800784284 /* MovieTableViewCell.swift in Sources */,
+				262E003025E348310028A717 /* MovieTableViewCell.swift in Sources */,
 				265D31CE25E3134200784284 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,8 +207,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A593Q49RYH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -267,8 +271,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A593Q49RYH;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -295,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ27JAH9DS;
+				DEVELOPMENT_TEAM = A593Q49RYH;
 				INFOPLIST_FILE = "Movie Searcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ27JAH9DS;
+				DEVELOPMENT_TEAM = A593Q49RYH;
 				INFOPLIST_FILE = "Movie Searcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
